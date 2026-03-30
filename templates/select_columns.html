@@ -1,0 +1,13 @@
+<h1>Выборка колонок: title и price</h1>
+<table border="1">
+  <tr>
+    <th>Title</th>
+    <th>Price</th>
+  </tr>
+  {% for bb in bbs %}
+  <tr>
+    <td>{{ bb.title }}</td>
+    <td>{{ bb.price }}</td>
+  </tr>
+  {% endfor %}
+</table>
